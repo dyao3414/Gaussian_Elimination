@@ -1,4 +1,4 @@
-
+# Please check the README.ipyb NoteBook first
 # import necessary libs
 
 import numpy as np
