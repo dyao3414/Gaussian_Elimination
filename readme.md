@@ -8,9 +8,9 @@ However, the Gaussian Elimination method has its limitation, the most common sit
 <br>
 <br>
 For example, we have a 3 x 3 matrix shown as below<br>
-$x<sub>1$+$x_{2}$-$x_{3}$=-2   **($l_{1}$)**<br>
-$2x_{1}$-$x_{2}$+$x_{3}$=5   ($l_{2}$)<br>
-$-x_{1}$+$2x_{2}$+$2x_{3}$=-2 ($l_{3}$)<br>
+x<sub>1+x_{2}-x<sub>3=-2   **(l<sub>1)**<br>
+2x<sub>1-x<sub>2+x<sub>3=5   (l<sub>2)<br>
+-x<sub>1+2x<sub>2+2x<sub>3}=-2 (l<sub>3)<br>
 <br>
 <br>
 ### The Traditional Method
@@ -18,11 +18,11 @@ $-x_{1}$+$2x_{2}$+$2x_{3}$=-2 ($l_{3}$)<br>
 
 The traditional algebratic method usually rewrites one of the equations as an equation for an unknown variable, and then use that equation to replace the particular variable in another equation, and so on so forth until there is only one unknown variable left in the matrix and thus becomes solvable.
 For example, the (L1) in the matrix above could be written as<br>
-$x_{1}$=-2-$x_{2}$+$x_{3}$ (L1)<br>
-Then use the right side of the equation to replace the $x_{1}$ in (L2) <BR>
-2(-2-$x_{2}$+$x_{3}$)-$x_{2}$+$x_{3}$=5 (L2) <br>
+x<sub>1=-2-x<sub>2+x<sub>3 (L1)<br>
+Then use the right side of the equation to replace the x<sub>1 in (L2) <BR>
+2(-2-x<sub>2+x<sub>3)-x<sub>2+x<sub>3=5 (L2) <br>
 After simplification of (L2), the same procedure will be used on (L2) and make it an equation for variable 
-$x_{2}$
+x<sub>2
 to replace the x2 in (L3) and finally solve for $x_{3}$ in (L3).<br>
 <br>
 This method usually takes too many substituions and requires simplification after each replacement, thus causing unneccessary computations and taking longer time, espcially when there are more equations in the matrix. In contrast, Gaussian Elimination is a better way of solving linear algebra functions like this, Gaussian method can also be used in computers to solve thousands of equations and unknowns variables in a fast speed.
@@ -33,10 +33,10 @@ This method usually takes too many substituions and requires simplification afte
 As we disscussed in the introduction, the nature of Guassian Jordan Elimination is to add or substruct vectors with common elements in order to convert a matrix into a reduced row echelon form (RREF)
 matrix of the previous linear equations <br>
 
-$x_{1}$+$x_{2}$-$x_{3}$=-2   ($l_{1}$)<br>
-$2x_{1}$-$x_{2}$+$x_{3}$=5   ($l_{2}$)<br>
--$x_{1}$+$2x_{2}$+$2x_{3}$=-2 ($l_{3}$)<br>
-# =
+x<sub>1+x<sub>2-x<sub>3=-2   ($l_{1}$)<br>
+2x<sub>1-x<sub>2+x<sub>3=5   ($l_{2}$)<br>
+-x<sub>1+2x<sub>2+x<sub>3=-2 ($l_{3}$)<br>
+=
 
 
 [1.0, 1.0, -1.0 | -2],   ($l_{1}$)<br>
