@@ -1,6 +1,7 @@
 # Gaussian Elimination Implementation with NumPy
 ## Mathematical Concept of Gaussian Elimination
 ### Introduction
+\[ a_1^2 + a_2^2 = a_3^2 \]<br>
 
 Guassian Jordan Elimination is an algorithm in mathematical linear algebra that can convert a matrix into a row echelon matrix. Gaussian elimination can be used to solve systems of linear equations, find the rank of matrices, and find the inverse of an invertible square matrix.
 The concept of Gaussian Elimination is to add, substruct, or multiply one equation to make the coefficient of a variable matches itself in another equation in order to eliminate the variable and to continue this process until only one variable is left. Once this final variable is determined, its value is substituted back into the other equations in order to evaluate the remaining unknowns. This method, characterized by step by step elimination of the variables, is called Gaussian elimination.
