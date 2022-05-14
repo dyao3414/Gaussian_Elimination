@@ -8,7 +8,7 @@ However, the Gaussian Elimination method has its limitation, the most common sit
 <br>
 <br>
 For example, we have a 3 x 3 matrix shown as below<br>
-$x_{1}$+$x_{2}$-$x_{3}$=-2   **($l_{1}$)**<br>
+$x<sub>1$+$x_{2}$-$x_{3}$=-2   **($l_{1}$)**<br>
 $2x_{1}$-$x_{2}$+$x_{3}$=5   ($l_{2}$)<br>
 $-x_{1}$+$2x_{2}$+$2x_{3}$=-2 ($l_{3}$)<br>
 <br>
