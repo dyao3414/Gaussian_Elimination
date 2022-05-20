@@ -1,4 +1,8 @@
 # Gaussian Elimination Implementation with NumPy
+
+This repository is a native method to implement Guassian Elimination in linear algebra without heavily replying on NumPy.Linalg Module
+
+
 ## Mathematical Concept of Gaussian Elimination
 ### Introduction
 
