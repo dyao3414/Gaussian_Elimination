@@ -1,2 +1,2 @@
-# Gaussian Elimination Implementation with NumPy
+### Gaussian Elimination Implementation with NumPy ###
 
